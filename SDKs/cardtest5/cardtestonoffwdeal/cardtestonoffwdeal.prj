@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="cardtestonoffwdeal" location="C:/Users/sampa/385/Xx_thefinal_xX/SDKs/cardtest5/cardtestonoffwdeal" platform="C:/Users/sampa/385/Xx_thefinal_xX/SDKs/cardtest5/cardonoffwdealer/export/cardonoffwdealer/cardonoffwdealer.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="cardtestonoffwdeal_system" sysConfig="cardonoffwdealer" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="5fe03f3422a57e40831a10e5fe9c36eb">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.84844086">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1193282705" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

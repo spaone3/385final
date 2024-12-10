@@ -1,0 +1,7 @@
+timestamp=[2024-11-19 23:19:39], mode=WORKBENCH_START, duration=0:00:04.602, duration_ms=4602, data={}
+timestamp=[2024-11-19 23:19:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.383, duration_ms=383, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-19 23:19:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.066, duration_ms=66, data={}
+timestamp=[2024-11-19 23:20:28], mode=APP_CREATION, duration=0:00:02.083, duration_ms=2083, data={name=tmp, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=C:\Users\sampa\385\Xx_thefinal_xX\SDKs\tmpsdk\tmp\export\tmp\tmp.xpfm, application_type=application}
+timestamp=[2024-11-19 23:20:53], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.029, duration_ms=29, data={}
+timestamp=[2024-11-19 23:20:53], mode=WORKBENCH_START, duration=0:00:04.690, duration_ms=4690, data={}
+timestamp=[2024-11-19 23:20:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.503, duration_ms=503, data={editors_count=1, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}

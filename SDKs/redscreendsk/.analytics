@@ -1,0 +1,7 @@
+timestamp=[2024-11-19 21:43:32], mode=WORKBENCH_START, duration=0:00:08.536, duration_ms=8536, data={}
+timestamp=[2024-11-19 21:43:33], mode=WORKBENCH_UI_INIT, duration=0:00:00.545, duration_ms=545, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-19 21:43:34], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.056, duration_ms=56, data={}
+timestamp=[2024-11-19 21:45:08], mode=APP_CREATION, duration=0:00:04.587, duration_ms=4587, data={name=redtest, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=redscreentest, application_type=application}
+timestamp=[2024-11-19 21:45:43], mode=PLATFORM_GENERATION, duration=0:00:20.073, duration_ms=20073, data={name=redscreentest}
+timestamp=[2024-11-19 21:45:49], mode=BUILD, duration=0:00:06.450, duration_ms=6450, data={name=redtest, configuration=Debug, clean_build=false}
+timestamp=[2024-11-19 21:45:51], mode=BUILD, duration=0:00:00.501, duration_ms=501, data={name=redtest_system, configuration=Debug, clean_build=false}

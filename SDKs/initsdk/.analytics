@@ -1,0 +1,10 @@
+timestamp=[2024-11-19 03:16:48], mode=WORKBENCH_START, duration=0:00:07.840, duration_ms=7840, data={}
+timestamp=[2024-11-19 03:16:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.677, duration_ms=677, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-19 03:16:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.048, duration_ms=48, data={}
+timestamp=[2024-11-19 03:18:01], mode=APP_CREATION, duration=0:00:07.558, duration_ms=7558, data={name=inittest, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=wrap, application_type=application}
+timestamp=[2024-11-19 03:18:44], mode=PLATFORM_GENERATION, duration=0:00:18.597, duration_ms=18597, data={name=wrap}
+timestamp=[2024-11-19 03:18:48], mode=BUILD, duration=0:00:04.050, duration_ms=4050, data={name=inittest, configuration=Debug, clean_build=false}
+timestamp=[2024-11-19 03:18:51], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=inittest_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-19 03:20:57], mode=WORKBENCH_START, duration=0:00:10.164, duration_ms=10164, data={}
+timestamp=[2024-11-19 03:20:58], mode=WORKBENCH_UI_INIT, duration=0:00:01.266, duration_ms=1266, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,inittest,inittest_system,wrap}
+timestamp=[2024-11-19 03:21:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.055, duration_ms=55, data={}

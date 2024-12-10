@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb12_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="\$unit_VGA_controller_sv_3865021597 " />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lib_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb12" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="622.345363 us"></ZoomStartTime>
+      <ZoomEndTime time="924.345364 us"></ZoomEndTime>
+      <Cursor1Time time="488.950000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="30" />
+   <wvobject fp_name="/tb12/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/drawX" type="array">
+      <obj_property name="ElementShortName">drawX[9:0]</obj_property>
+      <obj_property name="ObjectShortName">drawX[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/drawY" type="array">
+      <obj_property name="ElementShortName">drawY[9:0]</obj_property>
+      <obj_property name="ObjectShortName">drawY[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/hsync" type="logic">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/vsync" type="logic">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/vde" type="logic">
+      <obj_property name="ElementShortName">vde</obj_property>
+      <obj_property name="ObjectShortName">vde</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/red" type="array">
+      <obj_property name="ElementShortName">red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/green" type="array">
+      <obj_property name="ElementShortName">green[3:0]</obj_property>
+      <obj_property name="ObjectShortName">green[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/blue" type="array">
+      <obj_property name="ElementShortName">blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/regen_state" type="array">
+      <obj_property name="ElementShortName">regen_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">regen_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/screen_rom_address" type="array">
+      <obj_property name="ElementShortName">screen_rom_address[17:0]</obj_property>
+      <obj_property name="ObjectShortName">screen_rom_address[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/rom_q" type="array">
+      <obj_property name="ElementShortName">rom_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_q[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/screen_palette_red" type="array">
+      <obj_property name="ElementShortName">screen_palette_red[3:0]</obj_property>
+      <obj_property name="ObjectShortName">screen_palette_red[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/screen_palette_green" type="array">
+      <obj_property name="ElementShortName">screen_palette_green[3:0]</obj_property>
+      <obj_property name="ObjectShortName">screen_palette_green[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/screen_palette_blue" type="array">
+      <obj_property name="ElementShortName">screen_palette_blue[3:0]</obj_property>
+      <obj_property name="ObjectShortName">screen_palette_blue[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/cardX" type="array">
+      <obj_property name="ElementShortName">cardX[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cardX[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/cardY" type="array">
+      <obj_property name="ElementShortName">cardY[6:0]</obj_property>
+      <obj_property name="ObjectShortName">cardY[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/addra" type="array">
+      <obj_property name="ElementShortName">addra[17:0]</obj_property>
+      <obj_property name="ObjectShortName">addra[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/draw/dina" type="array">
+      <obj_property name="ElementShortName">dina[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/fsm_sticks/state" type="array">
+      <obj_property name="ElementShortName">state[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/fsm_sticks/placecard" type="logic">
+      <obj_property name="ElementShortName">placecard</obj_property>
+      <obj_property name="ObjectShortName">placecard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/btn" type="array">
+      <obj_property name="ElementShortName">btn[2:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/deal_i" type="logic">
+      <obj_property name="ElementShortName">deal_i</obj_property>
+      <obj_property name="ObjectShortName">deal_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/deal_s" type="logic">
+      <obj_property name="ElementShortName">deal_s</obj_property>
+      <obj_property name="ObjectShortName">deal_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/fsm_sticks/deal" type="logic">
+      <obj_property name="ElementShortName">deal</obj_property>
+      <obj_property name="ObjectShortName">deal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/cardstartxintermediate" type="array">
+      <obj_property name="ElementShortName">cardstartxintermediate[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cardstartxintermediate[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/cardstartyintermediate" type="array">
+      <obj_property name="ElementShortName">cardstartyintermediate[17:0]</obj_property>
+      <obj_property name="ObjectShortName">cardstartyintermediate[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/fsm_sticks/player_total" type="array">
+      <obj_property name="ElementShortName">player_total[31:0]</obj_property>
+      <obj_property name="ObjectShortName">player_total[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb12/dut/fsm_sticks/dealer_total" type="array">
+      <obj_property name="ElementShortName">dealer_total[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dealer_total[31:0]</obj_property>
+   </wvobject>
+</wave_config>

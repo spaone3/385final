@@ -1,0 +1,16 @@
+timestamp=[2024-11-20 18:19:38], mode=WORKBENCH_START, duration=0:00:04.290, duration_ms=4290, data={}
+timestamp=[2024-11-20 18:19:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.369, duration_ms=369, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-20 18:19:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.077, duration_ms=77, data={}
+timestamp=[2024-11-20 18:20:17], mode=APP_CREATION, duration=0:00:03.568, duration_ms=3568, data={name=hjfjh, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=autocarddeal2, application_type=application}
+timestamp=[2024-11-20 18:20:41], mode=PLATFORM_GENERATION, duration=0:00:11.103, duration_ms=11103, data={name=autocarddeal2}
+timestamp=[2024-11-20 18:20:44], mode=BUILD, duration=0:00:03.226, duration_ms=3226, data={name=hjfjh, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 18:20:46], mode=BUILD, duration=0:00:00.314, duration_ms=314, data={name=hjfjh_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 18:21:55], mode=WORKBENCH_START, duration=0:00:05.692, duration_ms=5692, data={}
+timestamp=[2024-11-20 18:21:55], mode=WORKBENCH_UI_INIT, duration=0:00:00.506, duration_ms=506, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,autocarddeal2,hjfjh,hjfjh_system}
+timestamp=[2024-11-20 18:21:56], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.045, duration_ms=45, data={}
+timestamp=[2024-11-20 18:23:56], mode=WORKBENCH_START, duration=0:00:06.399, duration_ms=6399, data={}
+timestamp=[2024-11-20 18:23:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.528, duration_ms=528, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,autocarddeal2,hjfjh,hjfjh_system}
+timestamp=[2024-11-20 18:23:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.084, duration_ms=84, data={}
+timestamp=[2024-11-20 18:24:04], mode=PLATFORM_GENERATION, duration=0:00:03.809, duration_ms=3809, data={name=autocarddeal2}
+timestamp=[2024-11-20 18:24:05], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=hjfjh, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 18:24:06], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=hjfjh_system, configuration=Debug, clean_build=false}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="cardonofftableee" location="C:/Users/sampa/385/Xx_thefinal_xX/SDKs/cardtest3/cardonofftableee" platform="C:/Users/sampa/385/Xx_thefinal_xX/SDKs/cardtest3/cardonoffontable/export/cardonoffontable/cardonoffontable.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="cardonofftableee_system" sysConfig="cardonoffontable" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="5fe03f3422a57e40831a10e5fe9c36eb">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.761820325">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1890507408" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

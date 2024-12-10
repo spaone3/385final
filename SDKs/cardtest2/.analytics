@@ -1,0 +1,19 @@
+timestamp=[2024-11-20 00:53:28], mode=WORKBENCH_START, duration=0:00:03.762, duration_ms=3762, data={}
+timestamp=[2024-11-20 00:53:28], mode=WORKBENCH_UI_INIT, duration=0:00:00.355, duration_ms=355, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-20 00:53:29], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.077, duration_ms=77, data={}
+timestamp=[2024-11-20 00:55:02], mode=APP_CREATION, duration=0:00:03.339, duration_ms=3339, data={name=cardtestnumtwo, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=cardtest2, application_type=application}
+timestamp=[2024-11-20 00:55:58], mode=PLATFORM_GENERATION, duration=0:00:06.673, duration_ms=6673, data={name=cardtest2}
+timestamp=[2024-11-20 00:56:02], mode=BUILD, duration=0:00:02.992, duration_ms=2992, data={name=cardtestnumtwo, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 00:56:03], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=cardtestnumtwo_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 00:59:23], mode=WORKBENCH_START, duration=0:00:05.348, duration_ms=5348, data={}
+timestamp=[2024-11-20 00:59:24], mode=WORKBENCH_UI_INIT, duration=0:00:00.743, duration_ms=743, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,cardtest2,cardtestnumtwo,cardtestnumtwo_system}
+timestamp=[2024-11-20 00:59:24], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.041, duration_ms=41, data={}
+timestamp=[2024-11-20 01:12:16], mode=PLATFORM_GENERATION, duration=0:00:07.340, duration_ms=7340, data={name=cardtest2}
+timestamp=[2024-11-20 01:12:19], mode=BUILD, duration=0:00:03.301, duration_ms=3301, data={name=cardtestnumtwo, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 01:12:21], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=cardtestnumtwo_system, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 01:12:26], mode=PLATFORM_GENERATION, duration=0:00:03.302, duration_ms=3302, data={name=cardtest2}
+timestamp=[2024-11-20 01:12:27], mode=BUILD, duration=0:00:00.338, duration_ms=338, data={name=cardtestnumtwo, configuration=Debug, clean_build=true}
+timestamp=[2024-11-20 01:12:27], mode=BUILD, duration=0:00:00.313, duration_ms=313, data={name=cardtestnumtwo_system, configuration=Debug, clean_build=true}
+timestamp=[2024-11-20 01:12:41], mode=PLATFORM_GENERATION, duration=0:00:11.372, duration_ms=11372, data={name=cardtest2}
+timestamp=[2024-11-20 01:12:45], mode=BUILD, duration=0:00:03.798, duration_ms=3798, data={name=cardtestnumtwo, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 01:12:47], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=cardtestnumtwo_system, configuration=Debug, clean_build=false}

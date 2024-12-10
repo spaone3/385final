@@ -1,0 +1,7 @@
+timestamp=[2024-11-20 01:55:42], mode=WORKBENCH_START, duration=0:00:03.858, duration_ms=3858, data={}
+timestamp=[2024-11-20 01:55:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.365, duration_ms=365, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-20 01:55:43], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.087, duration_ms=87, data={}
+timestamp=[2024-11-20 01:56:21], mode=APP_CREATION, duration=0:00:03.373, duration_ms=3373, data={name=cardtestonoffwdeal, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=cardonoffwdealer, application_type=application}
+timestamp=[2024-11-20 01:56:43], mode=PLATFORM_GENERATION, duration=0:00:11.725, duration_ms=11725, data={name=cardonoffwdealer}
+timestamp=[2024-11-20 01:56:48], mode=BUILD, duration=0:00:04.034, duration_ms=4034, data={name=cardtestonoffwdeal, configuration=Debug, clean_build=false}
+timestamp=[2024-11-20 01:56:49], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=cardtestonoffwdeal_system, configuration=Debug, clean_build=false}

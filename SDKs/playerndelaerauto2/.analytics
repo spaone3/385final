@@ -1,0 +1,4 @@
+timestamp=[2024-11-20 20:01:49], mode=WORKBENCH_START, duration=0:00:03.875, duration_ms=3875, data={}
+timestamp=[2024-11-20 20:01:50], mode=WORKBENCH_UI_INIT, duration=0:00:00.337, duration_ms=337, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-11-20 20:01:51], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.070, duration_ms=70, data={}
+timestamp=[2024-11-20 20:02:43], mode=APP_CREATION, duration=0:00:03.276, duration_ms=3276, data={name=jgghjb, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=playerndealerbasictiming, application_type=application}
