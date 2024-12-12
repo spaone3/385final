@@ -124,6 +124,7 @@ module wrap(
         .green(green),
         .blue(blue),
         .drawdone (drawdone),
+        .cleardone (cleardone),
         
         .placecard  (placecard),
         .cardstartX (cardstartxintermediate),
@@ -139,7 +140,7 @@ module wrap(
     logic [17:0] cardstartyintermediate;
     
     
-    logic [5:0] cardidx; // create separate function that inputs cardidx and outputs start and end pos of card rom.
+    logic [7:0] cardidx; // create separate function that inputs cardidx and outputs start and end pos of card rom.
 
     fsm fsm_sticks (
         .reset_ah   (reset_ah),
@@ -150,22 +151,22 @@ module wrap(
         .cleartable (cleartable),
         .vsync      (~vsync),
         .drawdone   (drawdone),
+        .cleardone  (cleardone),
         
         .cardidx (cardidx),
         .card_val (card_val),
         .playerScore (playerScore),
         .dealerScore (dealerScore),
-        
+        .chipcount  (chipcount),
+        .betsize    (betsize),
         
         .deal (deal_s),
         .hit (hit_s),
         .stand (stand_s)
-        
-    
-    
+
     );
 
-
+    logic [15:0] chipcount, betsize;
 
 
 
@@ -216,7 +217,7 @@ module wrap(
     .clk        (clk_25MHz),
     .reset      (reset_ah),
     .dealer     (cardidx),    // 6-bit dealer score
-    .player     (card_val),    // 6-bit player score
+    .player     (chipcount),    // 6-bit player score
 
     .hex_seg    (hex_seg_b),
     .hex_grid   (hex_grid_b)

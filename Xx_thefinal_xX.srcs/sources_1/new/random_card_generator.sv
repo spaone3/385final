@@ -14,6 +14,6 @@ module random_card_generator (
 
     // Map the LFSR output to the range [0, 51]
     always_comb begin
-        random_card = random_num % 26;
+        random_card = random_num % 52;
     end
 endmodule

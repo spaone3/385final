@@ -65,13 +65,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="20"/>
-    <Option Name="WTModelSimExportSim" Val="20"/>
-    <Option Name="WTQuestaExportSim" Val="20"/>
+    <Option Name="WTXSimExportSim" Val="22"/>
+    <Option Name="WTModelSimExportSim" Val="22"/>
+    <Option Name="WTQuestaExportSim" Val="22"/>
     <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="20"/>
-    <Option Name="WTRivieraExportSim" Val="20"/>
-    <Option Name="WTActivehdlExportSim" Val="20"/>
+    <Option Name="WTVcsExportSim" Val="22"/>
+    <Option Name="WTRivieraExportSim" Val="22"/>
+    <Option Name="WTActivehdlExportSim" Val="22"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -95,41 +95,41 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_xbar_0/bjblock_xbar_0.xci">
-          <Proxy FileSetName="bjblock_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_dlmb_v10_0/bjblock_dlmb_v10_0.xci">
-          <Proxy FileSetName="bjblock_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_dlmb_bram_if_cntlr_0/bjblock_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="bjblock_dlmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_rst_clk_wiz_1_100M_0/bjblock_rst_clk_wiz_1_100M_0.xci">
+          <Proxy FileSetName="bjblock_rst_clk_wiz_1_100M_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_mdm_1_0/bjblock_mdm_1_0.xci">
           <Proxy FileSetName="bjblock_mdm_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_ilmb_v10_0/bjblock_ilmb_v10_0.xci">
-          <Proxy FileSetName="bjblock_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_microblaze_0_axi_intc_0/bjblock_microblaze_0_axi_intc_0.xci">
-          <Proxy FileSetName="bjblock_microblaze_0_axi_intc_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_clk_wiz_1_0/bjblock_clk_wiz_1_0.xci">
           <Proxy FileSetName="bjblock_clk_wiz_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_microblaze_0_0/bjblock_microblaze_0_0.xci">
-          <Proxy FileSetName="bjblock_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_ilmb_bram_if_cntlr_0/bjblock_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="bjblock_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_lmb_bram_0/bjblock_lmb_bram_0.xci">
-          <Proxy FileSetName="bjblock_lmb_bram_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_axi_uartlite_0_0/bjblock_axi_uartlite_0_0.xci">
           <Proxy FileSetName="bjblock_axi_uartlite_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_rst_clk_wiz_1_100M_0/bjblock_rst_clk_wiz_1_100M_0.xci">
-          <Proxy FileSetName="bjblock_rst_clk_wiz_1_100M_0"/>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_dlmb_bram_if_cntlr_0/bjblock_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="bjblock_dlmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_xbar_0/bjblock_xbar_0.xci">
+          <Proxy FileSetName="bjblock_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_ilmb_bram_if_cntlr_0/bjblock_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="bjblock_ilmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_microblaze_0_axi_intc_0/bjblock_microblaze_0_axi_intc_0.xci">
+          <Proxy FileSetName="bjblock_microblaze_0_axi_intc_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_dlmb_v10_0/bjblock_dlmb_v10_0.xci">
+          <Proxy FileSetName="bjblock_dlmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_ilmb_v10_0/bjblock_ilmb_v10_0.xci">
+          <Proxy FileSetName="bjblock_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_lmb_bram_0/bjblock_lmb_bram_0.xci">
+          <Proxy FileSetName="bjblock_lmb_bram_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="bjblock.bd" FileRelPathName="ip/bjblock_microblaze_0_0/bjblock_microblaze_0_0.xci">
+          <Proxy FileSetName="bjblock_microblaze_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/HexDriver.sv">
@@ -247,6 +247,18 @@
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../PNGtoCOE/brackies/brackies.COE">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../PNGtoCOE/redcards/redcards.COE">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../PNGtoCOE/cardback/cardback.COE">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -417,6 +429,7 @@
     <FileSet Name="jackofclubs_rom" Type="BlockSrcs" RelSrcDir="$PSRCDIR/jackofclubs_rom" RelGenDir="$PGENDIR/jackofclubs_rom">
       <File Path="$PSRCDIR/sources_1/ip/jackofclubs_rom/jackofclubs_rom.xci">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -452,6 +465,34 @@
       </File>
       <Config>
         <Option Name="TopModule" Val="brackie_rom"/>
+        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="reddies_rom" Type="BlockSrcs" RelSrcDir="$PSRCDIR/reddies_rom" RelGenDir="$PGENDIR/reddies_rom">
+      <File Path="$PSRCDIR/sources_1/ip/reddies_rom/reddies_rom.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="reddies_rom"/>
+        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="cardback_rom" Type="BlockSrcs" RelSrcDir="$PSRCDIR/cardback_rom" RelGenDir="$PGENDIR/cardback_rom">
+      <File Path="$PSRCDIR/sources_1/ip/cardback_rom/cardback_rom.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="cardback_rom"/>
         <Option Name="dataflowViewerSettings" Val="min_width=16"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
@@ -647,6 +688,26 @@
       <RQSFiles/>
     </Run>
     <Run Id="brackie_rom_synth_1" Type="Ft3:Synth" SrcSet="brackie_rom" Part="xc7s50csga324-1" ConstrsSet="brackie_rom" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/brackie_rom_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/brackie_rom_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/brackie_rom_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="reddies_rom_synth_1" Type="Ft3:Synth" SrcSet="reddies_rom" Part="xc7s50csga324-1" ConstrsSet="reddies_rom" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/reddies_rom_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/reddies_rom_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/reddies_rom_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="cardback_rom_synth_1" Type="Ft3:Synth" SrcSet="cardback_rom" Part="xc7s50csga324-1" ConstrsSet="cardback_rom" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/cardback_rom_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/cardback_rom_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/cardback_rom_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
@@ -947,6 +1008,40 @@
       <RQSFiles/>
     </Run>
     <Run Id="brackie_rom_impl_1" Type="Ft2:EntireDesign" Part="xc7s50csga324-1" ConstrsSet="brackie_rom" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="brackie_rom_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/brackie_rom_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/brackie_rom_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="reddies_rom_impl_1" Type="Ft2:EntireDesign" Part="xc7s50csga324-1" ConstrsSet="reddies_rom" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="reddies_rom_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/reddies_rom_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/reddies_rom_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="cardback_rom_impl_1" Type="Ft2:EntireDesign" Part="xc7s50csga324-1" ConstrsSet="cardback_rom" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="cardback_rom_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/cardback_rom_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/cardback_rom_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>

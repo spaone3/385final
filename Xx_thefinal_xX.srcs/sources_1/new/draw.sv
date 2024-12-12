@@ -6,9 +6,9 @@ module draw (
 	output logic [3:0] red, green, blue,
 	input logic [17:0] cardstartX, cardstartY,
 	input logic cleartable,
-	input logic [5:0] cardidx,
+	input logic [7:0] cardidx,
 	
-	output logic drawdone
+	output logic drawdone, cleardone
 );
 
 
@@ -68,7 +68,7 @@ main_palette pal (
 
 
 
-    typedef enum logic [2:0] {IDLE, ACTIVE, DONE, TMP, PRE} regen_state_t;
+    typedef enum logic [3:0] {IDLE, ACTIVE, DONE, TMP, PRE, clear_IDLE, clear_CLEARING, clear_DONE, clear_TMP} regen_state_t;
     regen_state_t regen_state = IDLE;
 
 logic [6:0] cardX, cardY;
@@ -85,37 +85,61 @@ always_ff @ (posedge vga_clk) begin
 	   begin
 	       cardX <= 0;
 	       cardY <= 0;
-	       wea <= 1'b0;
 	       drawdone <= 1'b0;
-	       if (placecard) begin
+
+            	   
+           clearX <= 0;
+           clearY <= 0;    
+	       clearstartX <= 100;
+	       clearstartY <= 200;
+	       cleardone <= 1'b0;
+	       if (cleartable) begin
+	           regen_state <= clear_CLEARING;
+	       end else if (placecard) begin
 	           regen_state <= PRE;
-	           on <= 1'b1;
-	       end else if (cleartable) begin
-	           regen_state <= PRE;
-	           on <= 1'b0;     
 	       end
 	       
 	   end
 	   
 	   PRE:
 	   begin
-	       blackcards_rom_address <= cardY * 780 + cardX + 30 * cardidx;
+	       //blank card
+	       if (cardidx >= 52) begin
+	           cardback_rom_address <= cardY * 30 + cardX;
+	       end else if (cardidx < 26) begin
+	           blackcards_rom_address <= cardY * 780 + cardX + 30 * cardidx;
+	       end else begin
+	           redcards_rom_address <= cardY * 780 + cardX + 30 * (cardidx % 26);
+	       end
 	       regen_state <= ACTIVE;
 	   end
 	   
 	   ACTIVE:
 	   begin
-	       
-	   
 	       wea <= 1'b1;
 	       addra <= (480 * cardstartY + cardstartX) + cardY * 480 + cardX;
-	       
-	       if (on) begin
-	           if (blackcards_pal_addr == 0) begin dina <= 2'b10; end 
-	           else begin dina <= 2'b01; end
-	       end else begin
-	           dina <= 2'b00;
-	       end
+	       	       
+	       if (cardidx >= 52) begin //white = 0, red = 1
+	           if (cardback_pal_addr == 0) begin
+	               dina <= 2'b10;
+	           end else begin
+	               dina <= 2'b11;
+	           end
+	           
+	       end else if (cardidx < 26) begin //white = 0, black = 1
+               if (blackcards_pal_addr == 0) begin 
+                   dina <= 2'b10; 
+               end else begin 
+                   dina <= 2'b01; 
+               end
+               
+           end else begin //red 0, white 1
+               if (redcards_pal_addr == 0) begin
+                    dina <= 2'b11;
+               end else begin
+                    dina <= 2'b10;
+               end
+           end
 	       
 	       if (cardX == 29) begin
 	           cardX <= 0;
@@ -139,22 +163,57 @@ always_ff @ (posedge vga_clk) begin
 	   begin
 	       regen_state <= IDLE;
 	       drawdone <= 1'b1;
+	       wea <= 1'b0;
 	   end
+	   
+	   
+	   
+	   
+	   
+	   
+	   clear_CLEARING:
+	   begin
+	       wea <= 1'b1;
+	       addra <= (480 * clearstartY + clearstartX) + clearY * 480 + clearX;
+           dina <= 2'b00;
+	       
+	       if (clearX == 300) begin
+	           clearX <= 0;
+	           clearY <= clearY + 1;
+	       end else begin
+	           clearX <= clearX + 1;
+	       end
+	       regen_state <= clear_TMP;
+	   end	   
+	   
+	   
+	   clear_TMP:
+	   begin
+	       if (clearY == 225) begin
+	           regen_state <= clear_DONE;
+	       end else begin
+	       regen_state <= clear_CLEARING;
+	       end
+	   end
+	   
+	   clear_DONE:
+	   begin
+	       regen_state <= IDLE;
+	       cleardone <= 1'b1;
+	       wea <= 1'b0;
+	   end
+	
 	
 	endcase
 	   
-
-	
 end
 
 
-logic [10:0] jack_rom_address;
-logic jack_pal_addr;
-jackofclubs_rom jackofclubs_rom (
-	.clka   (negedge_vga_clk),
-	.addra (jack_rom_address),
-	.douta       (jack_pal_addr)
-);
+
+logic [17:0] clearstartX, clearstartY, clearX, clearY;
+
+
+
 
 
 //pall is white 0 black 1
@@ -166,6 +225,23 @@ brackie_rom brackie_rom (
 	.douta       (blackcards_pal_addr)
 );
 
+
+logic [15:0] redcards_rom_address;
+logic redcards_pal_addr;
+reddies_rom reddies_rom (
+	.clka   (negedge_vga_clk),
+	.addra (redcards_rom_address),
+	.douta       (redcards_pal_addr)
+);
+
+
+logic [10:0] cardback_rom_address;
+logic cardback_pal_addr;
+cardback_rom cardback_rom (
+	.clka   (negedge_vga_clk),
+	.addra (cardback_rom_address),
+	.douta       (cardback_pal_addr)
+);
 
 
 endmodule
